@@ -1,0 +1,4 @@
+f = open("mijndata.txt","w")
+f.write("dit is regel 1")
+f.write("dit is regel 2")
+f.close()

@@ -16,7 +16,7 @@ with open('eggs.csv', newline = '') as csvfile:
 
 while True:
     spanning = (digi.value/1) * 5.0
-    temp = (spanning - 0.5)/0.01
+    temp = (spanning - 0.5)/0.01      
     sleep(1)
     print(temp)
     try:
@@ -31,4 +31,6 @@ while True:
         raise error
     
     time.sleep(3.0)
+    
+
 
